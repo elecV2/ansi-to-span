@@ -1,0 +1,27 @@
+{
+  "name": "ansi_to_span",
+  "version": "0.0.1",
+  "description": "converts the ANSI text to span.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/elecV2/ansi_to_span.git"
+  },
+  "keywords": [
+    "ansi",
+    "ansi html",
+    "ansi span",
+    "chalk html"
+  ],
+  "author": {
+    "name": "elecV2"
+  },
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/elecV2/ansi_to_span/issues"
+  },
+  "engines": {
+    "node": ">=0.8.0"
+  },
+  "homepage": "https://github.com/elecV2/ansi_to_span"
+}
