@@ -7,14 +7,17 @@ converts the ANSI text to html span.
 
 ``` sh
 # 先安装 install first
-npm install asni_to_span
+npm install ansi-to-span
 ```
 
 使用示例
 
 ``` js
-const { ansiSpan } = require('ansi_to_span')
+const { ansiSpan } = require('ansi-to-span')
+// import { ansiSpan } from 'ansi_to_span'
 
+// 直接输出 direct stdout
+console.log('\x1b[31m hello ansi \x1b[0m')
 // 文字颜色转换 convert base color
 console.log(ansiSpan('\x1b[31m hello ansi \x1b[0m'))
 // 颜色以及样子 color and style
